@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/getValues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取注解的值"
+        android:layout_weight="1"
+        android:textSize="20sp"
+    />
+
+    <Button
+        android:id="@+id/addList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="反射添加集合"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>
